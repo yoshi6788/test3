@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background: #ff7e5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: #f5f5f5;
+}
+
+.feature {
+    flex: 1 1 250px;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.cta {
+    background: #ff7e5f;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta .btn {
+    background: #4b6cb7;
+}
